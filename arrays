@@ -1,0 +1,6 @@
+$fellowship = @{"Wizard" = "Gandalf";"Hobbit" = "Frodo"; "Elf" = "Legolas"}
+$fellowship.Add("Dwarf", "Gimli")
+$fellowship.Set_Item("Dwarf","Bilbo")   # change item
+$fellowship.Remove("Dwarf")             # remove item
+$fellowship."Dwarf"   # get data using dot notation
+$fellowship["Dwarf"]  # get data using array notation
